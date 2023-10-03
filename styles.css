@@ -126,7 +126,7 @@ h5{
 .right-header1 {
     display: flex;
     align-items: center;
-    column-gap: 21.5625em;
+    column-gap: 0.725em;
 }
 
 /* MAIN */
