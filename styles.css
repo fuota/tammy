@@ -117,6 +117,7 @@ h5{
     display: flex;
     align-items: center;
     column-gap: 0.625em;
+    width: 40%;
     
 }
 .left-header1 p {
