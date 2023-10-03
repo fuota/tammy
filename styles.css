@@ -368,6 +368,9 @@ p{
     align-items: center;
     column-gap: 15px;
 }
+.icon-container button{
+    color: black;
+}
 .description button {
     padding: 1em 1.5625em;
     border-color: black;
