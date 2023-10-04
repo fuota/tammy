@@ -210,7 +210,7 @@ h5{
 
 .about-me #brief{
     /* margin: 20px 200px 50px 200px; */
-    width: 90%;
+    width: 70%;
     margin-bottom: 3.125em;
 
 }
@@ -224,7 +224,7 @@ p{
     display: grid;
     grid-template-columns: auto auto;
     width: 70%;
-    padding: 0.625em;
+    /* padding: 0.625em; */
     row-gap: 3.125em;
     column-gap: 10%;
 }
@@ -485,22 +485,27 @@ input[type=submit]:hover{
     
 }
 
+/* SCREEN FOR LEFT NAV BAR */
 @media screen and (min-width: 992px) {
     #header1{
         display: none;
     }
     
 }
+/* SCREEN FOR 2 COLUMN PROJECT */
 @media screen and (min-width: 768px) and (max-width:1199px){
     .about-grid {
      width: 90%;
+    }
+    .about-me #brief {
+        width: 90%;
     }
     .projects-container{
      grid-template-columns: auto auto;
     }
 }
 
-
+/* SCREEN FOR BOTTOM NAV BAR */
 @media screen and (max-width:991px){
     #header{
         display:none
@@ -516,13 +521,22 @@ input[type=submit]:hover{
         margin-left: 0;
     }
 }
+
+/* TABLET AND PHONE */
 @media screen and (max-width: 767px){
+    #main{
+        padding: 4em 2em 0em 2em;
+    }
     .about-top{
         margin: 0;
     }
 
     .about-top h1{
         font-size: 1.5rem;
+    }
+
+    .about-me #brief {
+        width: 100%;
     }
     .about-grid {
         width: 100%;
@@ -532,6 +546,11 @@ input[type=submit]:hover{
     .projects-container{
         grid-template-columns: auto;
         padding:0;
+    }
+    .right-contact {
+        width: 100%;
+        justify-content: unset;
+
     }
     .top-form-container {
         grid-template-columns: 1fr; 
@@ -546,6 +565,7 @@ input[type=submit]:hover{
     }
 }
 
+/* PHONE ONLY */
 @media screen and (max-width: 480px) {
     .description button:hover{
         background-color: initial;
