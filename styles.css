@@ -299,7 +299,7 @@ p{
 /* Projects Grid */
 .projects-container {
     display: grid;
-    grid-template-columns: auto auto auto;
+    grid-template-columns: 1fr 1fr 1fr;
     padding: 0.625em;
     row-gap: 1.875em;
     column-gap: 1.25em;
@@ -501,7 +501,7 @@ input[type=submit]:hover{
         width: 90%;
     }
     .projects-container{
-     grid-template-columns: auto auto;
+     grid-template-columns: 1fr 1fr;
     }
 }
 
@@ -544,7 +544,7 @@ input[type=submit]:hover{
         row-gap: 0;
     }
     .projects-container{
-        grid-template-columns: auto;
+        grid-template-columns: 1fr;
         padding:0;
     }
     .right-contact {
